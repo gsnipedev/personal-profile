@@ -1,0 +1,153 @@
+extends layout
+
+block content
+  section.mb-3
+        div.container.mb-3
+            div(class="row p-4 justify-content-center" style="height:100vh")
+                div(class="col-lg-4 align-items-center d-flex flex-column justify-content-center")
+                    img(src="/images/ameno.JPG" height="300" width="300" class="rounded-circle border border-light border-3 mb-3")
+                div(class="col-lg-7 align-items-center d-flex flex-column justify-content-center")                
+                    h1(class="text-light text-center raleway") Andika Wahyudi Pratama
+                    h2(class="green spline" id="app")
+
+        script(src="https://unpkg.com/typewriter-effect@latest/dist/core.js")
+        script(src="/javascripts/type.js")
+
+  section
+        div.container
+            div.text-center.text-light.spline
+                h1 Main Skills
+            hr
+            div.row
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/mongo.png").img-fluid
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title Mongo DB
+                            div.text-wrap
+                                p.card-text.spline MongoDB is an open source NoSQL database management program as an alternative to traditional relational databases.
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/nodejs.png" height="70")
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title Node JS
+                            p.card-text.spline Node.js is a runtime for JavaScript environments outside of web browsers built on the V8 JavaScript engine
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/express.png" height="70").img-fluid
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title Express
+                            p.card-text.spline Express.js, or simply Express, is a back end web application framework for Node.js
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/mysql.png" height="70")
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title MySql
+                            p.card-text.spline MySQL is an Oracle-backed open source RDBMS based on Structured Query Language (SQL).
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/rest.png" height="70")
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title REST API
+                            p.card-text.spline REST API is an architectural style for building web services that interact via an HTTP protocol.
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/firebase.png" height="70")
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title Firebase
+                            p.card-text.spline Firebase is an app development platform that helps you build and grow apps and games users love.
+                            center
+                                a(href="#") More
+                div.col-12.col-md-6.col-lg-4.col-xl-3.p-2
+                    div.card.p-3
+                        div.card-body
+                            center
+                                img(src="/images/gcloud.png" height="70")
+                            hr
+                            center.mt-2.mb-4
+                                u
+                                    h3.card-title Google Cloud
+                            p.card-text.spline Google Cloud consists of a set of physical assets, such as computers and hard disk drives, and virtual resources, etc.
+                            center
+                                a(href="#") More
+
+  section
+        div.container
+            div.row
+               div.col-12.d-flex(style="height:100vh").align-items-center.flex-column.justify-content-center
+                   figure.text-center
+                       blockquote.blockquote
+                           i
+                            p.green.spline "Any fool can write code that a computer can understand. 
+                            span.text-light.spline Good programmers write code that humans can understand."
+                       figcaption.blockquote-footer
+                           p.spline Idk who said this, dont asks me
+                   
+                   img(src="/images/nyan.gif").border.border-light.border-3
+                            
+  div.fixed-bottom.mb-4#helper-button(style="display:inline; width:max-content")
+        div.container(style="display:inline")
+            div(style="display:inline-block")
+                div.d-flex
+                   img(src="/images/saturn.gif" width="80")
+                   ul.green.spline(style="font-size:14px")
+                          li Back 2 Top
+                          li Contact Me
+                          li Who am I?
+
+  section
+        div.container(style="height:100vh")
+            div.text-center.mb-5
+                h2.text-light.spline Keep in Touch
+            div.row#socials
+                div.col-md-6.raleway
+                    a(href="https://github.com/gsnipedev")
+                        button.btn.btn-light.form-control.mb-2
+                            img(src="/images/github.png" height="50")
+                    button.btn.btn-light.form-control.mb-2
+                        img(src="/images/gmail.png" height="50")
+                div.col-md-6
+                    button.btn.btn-light.form-control.mb-2
+                        img(src="/images/github.png" height="50")
+                    button.btn.btn-light.form-control.mb-2
+                        img(src="/images/gmail.png" height="50")
+
+  footer
+        div.container.text-center.p-2.spline.text-secondary
+            a(href="https://github.com/gsnipedev") Github
+        div.container.text-center.p-2.spline.text-secondary
+            span All right reserved, Andika.

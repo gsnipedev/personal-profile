@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body {
+    background-color: #2F2F2F;
+}
+a {
+    color: #00B7FF;
+}
+
+.green {
+    color: #21FA90;
+}
+.bg-green {
+    background-color: #21FA90;
+}
+.spline {
+    font-family: 'Spline Sans Mono', monospace;
+}
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.card{
+    overflow: hidden;
+    height:400px;
+}
+
+.navbar{
+    transition:0.2s;
+}
+
+#helper-button img{
+    transition: 0.5s;
+}
+.navbar.scrolled {
+    background-color: #27302c !important;
+}
+#helper-button ul > li {
+    list-style: none;
+    display: none;
+}
+#helper-button div:hover img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+
+}
+#helper-button div > div > div:hover > ul > li{
+    display:block;
+}
+
+#helper-button div > ul > li:hover {
+    text-decoration:underline;
+    cursor: pointer;
+    color: orangered;
+}
+

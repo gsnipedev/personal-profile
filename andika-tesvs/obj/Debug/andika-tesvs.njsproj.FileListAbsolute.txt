@@ -1,0 +1,3 @@
+D:\Pemrograman\Node JS\andika-tesvs\andika-tesvs\obj\Debug\andika-tesvs.njsproj.AssemblyReference.cache
+D:\Pemrograman\Node JS\andika-tesvs\andika-tesvs\obj\Debug\andika-tesvs.njsproj.CoreCompileInputs.cache
+D:\Pemrograman\Node JS\andika-tesvs\andika-tesvs\bin\Microsoft.NodejsTools.WebRole.dll
